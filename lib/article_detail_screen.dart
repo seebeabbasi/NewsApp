@@ -9,7 +9,7 @@ class ArticleDetailScreen extends StatelessWidget {
     if (await canLaunchUrl(Uri.parse(url))) {
       await launchUrl(Uri.parse(url));
     } else {
-      throw 'Could not launch $url';
+      throw 'Could not launch App $url';
     }
   }
   @override
